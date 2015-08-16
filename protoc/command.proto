@@ -1,0 +1,10 @@
+package deploy;
+	
+enum COMMAND { 
+	WHOAMI = 0; 
+};
+	
+message commandconent {
+    required string path = 1;
+    required string command = 2;
+}
